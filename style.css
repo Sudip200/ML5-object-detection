@@ -3,18 +3,25 @@ body{
     display: flex;
     flex-direction: column;
    flex-wrap: wrap;
-   
-  align-items: center;
+   align-items: center;
    text-align: center;
 }
 canvas{
     border-radius: 20px;
     border: 20px solid #330536;
+   
 }
 h1 ,h2,p{
-    color: #330536;
+   
+    color:white;
+    font-family: Montserrat;
+}
+#res{
+    color: white;
+    font-size: 2em;
 }
 button{
     width: 200px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+    height: 30px;
 }
